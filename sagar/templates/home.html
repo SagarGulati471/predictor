@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Project</title>
+</head>
+<body>
+    
+
+    
+    {% block main %}
+
+    <div style="height:100px; width: ;">
+        <!-- <h1 align="center">Thanks to Arvind Sir, T.Ganesh Sir <bt> & T.Poongodi ma'am for their guidance...</h1> -->
+        <a href="/predict" ><center><img  src="{% static 'rocket1.gif' %}" style="height: 250px; , width: 50%; , background-color: powderblue;"></img>
+            <a href="/predict">Launch ...</a>
+        </center></a>
+        <!-- <img src="{% static 'rocket1.gif' %}" style="height:150px; width:150px;"> -->
+    </div>
+
+    
+    {% endblock %}
+</body>
+</html>
